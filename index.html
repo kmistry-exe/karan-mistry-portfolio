@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="show">
+      <div class="scrollToTop-btn">
+        <i class="fas fa-angle-up"></i>
+      </div>
+
+      <!-- Navigation -->
+
+      <header>
+        <a href="#" class="brand">Portfolio</a>
+        <div class="navigation">
+          <div class="nav-items">
+            <i class="fas fa-times" id="close"></i>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#Myskills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <i class="fas fa-bars" id="open"></i>
+      </header>
+
+      <!-- Main -->
+
+      <section class="main" id="main">
+        <div class="content">
+          <div class="left">
+            <h2 class="name-gradient">Karan Mistry</h2>
+            <p class="intro-text">Full Stack Developer</p>
+            <h3 class="title-text">
+              <span class="title-highlight">.NET Core</span> | SQL Server |
+              Svelte | Angular
+            </h3>
+            <div class="hero-actions">
+              <div class="social-links">
+                <a
+                  href="https://linkedin.com/in/karan-mistry-tech"
+                  target="_blank"
+                  class="social-btn"
+                  title="LinkedIn"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a
+                  href="https://github.com/kmistry-exe"
+                  target="_blank"
+                  class="social-btn"
+                  title="GitHub"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+              <a href="#projects" class="btn">See My Work</a>
+            </div>
+          </div>
+          <div class="right">
+            <img src="assets/me.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+
+      <section class="about" id="about">
+        <div class="title reveal">
+          <h2 class="section-title reveal">About Me</h2>
+        </div>
+        <div class="content">
+          <div class="imgS reveal">
+            <img class="reveal" src="assets/me.jpg" alt="my_img" />
+          </div>
+          <div class="imgC reveal">
+            <h2 class="content-title">Hey There! I'm Karan Mistry</h2>
+            <p class="paragraph-text">
+              Full Stack Developer with 3+ years of experience building scalable
+              web applications using .NET Core, Angular, Svelte, and SQL Server.
+              Strong in API development, database optimization, and frontend
+              integration. Experienced across the full software development
+              lifecycle including requirement analysis, development, testing,
+              and collaboration in team environments. Passionate about writing
+              clean, maintainable code and continuously improving through modern
+              technologies.
+            </p>
+            <a href="#contact" class="btn"
+              >Contact Me <i class="fas fa-paper-plane"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Work Experience -->
+
+      <section class="experience" id="experience">
+        <div class="title reveal">
+          <h2 class="section-title">Work Experience</h2>
+        </div>
+        <div class="content">
+          <div class="experience-card reveal">
+            <div class="experience-header">
+              <h3>Associate Technology Architect</h3>
+              <span class="company">IT Path Solutions Pvt. Ltd.</span>
+              <span class="duration">Jul 2023 - Present</span>
+            </div>
+            <ul class="experience-list">
+              <li>
+                Designed and developed RESTful APIs using ASP.NET Core for
+                insurance workflows, rate calculation, proposal creation, and
+                payment processing
+              </li>
+              <li>
+                Implemented business-driven rate calculation logic and
+                validations for insurance products, maintaining complex business
+                terms
+              </li>
+              <li>
+                Built Advisor Portal modules with secure authentication,
+                role-based access, and end-to-end portal security
+              </li>
+              <li>
+                Integrated PDF/XML generation and third-party services for case
+                submission, handling business rule refactoring
+              </li>
+              <li>
+                Optimized API performance using EF Core, SQL Server, stored
+                procedures, and query refactoring
+              </li>
+              <li>
+                Collaborated with a 20+ member cross-functional team following
+                Agile practices
+              </li>
+            </ul>
+          </div>
+          <div class="experience-card reveal">
+            <div class="experience-header">
+              <h3>Intern Technology Architect</h3>
+              <span class="company">IT Path Solutions Pvt. Ltd.</span>
+              <span class="duration">Jan 2023 - June 2023</span>
+            </div>
+            <ul class="experience-list">
+              <li>
+                Contributed to the development of a Kanban-style productivity
+                tool (TaskVortex)
+              </li>
+              <li>
+                Assisted in API design and development with next-generation
+                integration
+              </li>
+              <li>
+                Gained hands-on experience in full-stack development and team
+                collaboration
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+
+      <section class="projects" id="projects">
+        <div class="title reveal">
+          <h2 class="section-title" style="color: #fff">Projects</h2>
+        </div>
+        <div class="content">
+          <div class="project-card reveal">
+            <div class="project-header">
+              <h3>TaskVortex - Collaboration Tool (Svelte)</h3>
+              <span class="project-duration">Jan 2023 - June 2023</span>
+            </div>
+            <ul class="project-list">
+              <li>
+                Web-based productivity tool with a Kanban-style board for visual
+                task management
+              </li>
+              <li>
+                Built backend APIs using ASP.NET Core and Entity Framework for
+                task and user management
+              </li>
+              <li>
+                Integrated frontend components using Svelte for real-time UI
+                updates
+              </li>
+              <li>Applied MVC architecture</li>
+            </ul>
+          </div>
+          <div class="project-card reveal">
+            <div class="project-header">
+              <h3>Quick Insurance Portal</h3>
+              <span class="project-duration">Jul 2023 - Present</span>
+            </div>
+            <ul class="project-list">
+              <li>
+                Designed and implemented backend APIs for quote generation,
+                proposal creation, and payment workflows using ASP.NET Core and
+                EF Core
+              </li>
+              <li>
+                Developed rate calculation engine with product-specific rules,
+                validations, and dynamic premium computation
+              </li>
+              <li>
+                Implemented secure authentication and role-based authorization
+                for advisors and internal users
+              </li>
+              <li>
+                Integrated PDF and XML generation for proposals and case
+                submission to third-party systems
+              </li>
+              <li>
+                Handled duplicate case detection logic to prevent data
+                inconsistency
+              </li>
+            </ul>
+          </div>
+          <div class="project-card reveal">
+            <div class="project-header">
+              <h3>ECommerce CMS (Angular)</h3>
+              <span class="project-duration">Feb 2026 - Present</span>
+            </div>
+            <ul class="project-list">
+              <li>
+                Developed an admin dashboard using Angular with reusable
+                components and modular architecture.
+              </li>
+              <li>
+                Implemented CRUD operations for products and orders with
+                modal-based forms and validation.
+              </li>
+              <li>
+                Integrated REST APIs using JSON Server for products, orders, and
+                categories management.
+              </li>
+              <li>
+                Applied pagination, state handling, and clean UI patterns for
+                scalable frontend structure.
+              </li>
+              <li>
+                Github repository -
+                <a
+                  href="https://github.com/kmistry-exe/angular-ecommerce-app"
+                  target="_blank"
+                  >Angular ECommerce App</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="project-card reveal">
+            <div class="project-header">
+              <h3>Internal WPF App Productivity Tool</h3>
+              <span class="project-duration">July 2025 - Present</span>
+            </div>
+            <ul class="project-list">
+              <li>
+                Developed a WPF-based desktop application using C# and .NET with
+                XAML UI and MVVM architecture to streamline daily meeting and
+                task tracking
+              </li>
+              <li>
+                Reduced manual effort and improved visibility of daily work
+                status
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills  -->
+
+      <section class="skills" id="Myskills">
+        <div class="title reveal">
+          <h2 class="section-title" style="color: #fff">My Skills</h2>
+        </div>
+        <div class="content">
+          <!-- Technical Skills Card -->
+          <div class="skill-card reveal">
+            <h3 class="skill-card-title">Technical Skills</h3>
+            <div class="skill-category">
+              <!-- update skill category to include new -->
+              <h4>Backend</h4>
+              <p>
+                C#, ASP.NET Core, Web API, MVC, EF Core, LINQ, Authentication &
+                Authorization
+              </p>
+            </div>
+            <div class="skill-category">
+              <h4>Frontend</h4>
+              <p>
+                Svelte, Angular, TypeScript, HTML5, CSS3, JavaScript(ES6+),
+                Bootstrap, Vue
+              </p>
+            </div>
+            <div class="skill-category">
+              <h4>Database</h4>
+              <p>SQL Server, Stored Procedures, Indexing, Joins</p>
+            </div>
+            <div class="skill-category">
+              <h4>Tools & Desktop</h4>
+              <p>
+                Git, GitHub, REST APIs, SOLID Principles, Unit Testing, WPF,
+                Basic AI Tools (Prompt Engineering)
+              </p>
+            </div>
+          </div>
+          <!-- Soft Skills Card -->
+          <div class="skill-card reveal">
+            <h3 class="skill-card-title">Soft Skills</h3>
+            <div class="soft-skill-list">
+              <div class="soft-skill-item">
+                <i class="fas fa-check-circle"></i>
+                <span>Adaptable and eager to learn new technologies</span>
+              </div>
+              <div class="soft-skill-item">
+                <i class="fas fa-check-circle"></i>
+                <span>Self-motivated with a strong work ethic</span>
+              </div>
+              <div class="soft-skill-item">
+                <i class="fas fa-check-circle"></i>
+                <span>Effective communication and interpersonal skills</span>
+              </div>
+              <div class="soft-skill-item">
+                <i class="fas fa-check-circle"></i>
+                <span>Strong time management and prioritization</span>
+              </div>
+              <div class="soft-skill-item">
+                <i class="fas fa-check-circle"></i>
+                <span>Collaborative and reliable team player</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education -->
+
+      <section class="education" id="education">
+        <div class="title reveal">
+          <h2 class="section-title">Education</h2>
+        </div>
+        <div class="content-row">
+          <div class="education-card reveal">
+            <div class="education-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="education-info">
+              <h3>Bachelor of Engineering (B.E.)</h3>
+              <h4>Information Technology</h4>
+              <p class="institution">
+                G H Patel College of Engineering & Technology (GCET)
+              </p>
+              <p class="duration">2019 - 2023</p>
+              <p class="grades">CGPA: 8.03 | CPI: 8.21</p>
+            </div>
+          </div>
+          <div class="education-card reveal">
+            <div class="education-icon">
+              <i class="fas fa-school"></i>
+            </div>
+            <div class="education-info">
+              <h3>Higher Secondary School</h3>
+              <h4>Science Stream (H.S.C.)</h4>
+              <p class="institution">A B Higher Secondary School</p>
+              <p class="duration">2018 - 2019</p>
+              <p class="grades">Grade: 81 - 77.84%</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certificates and Languages combined -->
+
+      <section class="certlang" id="certlang">
+        <div class="content-wrapper">
+          <!-- Certificates -->
+          <div class="certlang-column reveal">
+            <h2 class="section-title-small">Certificates</h2>
+            <div class="certificates-list">
+              <div class="certificate-item">
+                <i class="fas fa-certificate"></i>
+                <span
+                  >Generative AI Foundations Certificate - In collaboration with
+                  Microsoft</span
+                >
+              </div>
+              <div class="certificate-item">
+                <i class="fas fa-certificate"></i>
+                <span>Foundational C# With Microsoft</span>
+              </div>
+              <div class="certificate-item">
+                <i class="fas fa-certificate"></i>
+                <span
+                  >Career Essentials in Software Development by Microsoft And
+                  LinkedIn</span
+                >
+              </div>
+              <div class="certificate-item">
+                <i class="fas fa-certificate"></i>
+                <span>Google Data Analytics Specialization</span>
+              </div>
+            </div>
+          </div>
+          <!-- Languages -->
+          <div class="certlang-column reveal">
+            <h2 class="section-title-small">Languages</h2>
+            <div class="languages-bars">
+              <div class="language-bar">
+                <div class="language-info">
+                  <span>English</span>
+                  <span>Fluent</span>
+                </div>
+                <div class="language-progress">
+                  <div class="language-fill english"></div>
+                </div>
+              </div>
+              <div class="language-bar">
+                <div class="language-info">
+                  <span>Hindi</span>
+                  <span>Fluent</span>
+                </div>
+                <div class="language-progress">
+                  <div class="language-fill hindi"></div>
+                </div>
+              </div>
+              <div class="language-bar">
+                <div class="language-info">
+                  <span>Gujarati</span>
+                  <span>Native</span>
+                </div>
+                <div class="language-progress">
+                  <div class="language-fill gujarati"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+
+      <section class="contact" id="contact">
+        <div class="title reveal">
+          <h2 class="section-title">Contact Me</h2>
+        </div>
+        <div class="content">
+          <div class="row">
+            <a
+              href="https://www.google.com/maps/place/Ahmedabad,+Gujarat,+India"
+              target="_blank"
+              class="card reveal contact-card-link"
+            >
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info">
+                <h3>Address</h3>
+                <span>Ahmedabad, Gujarat, India</span>
+              </div>
+            </a>
+            <a
+              href="mailto:karanmistry2804@gmail.com"
+              class="card reveal contact-card-link"
+            >
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="info">
+                <h3>Email Address</h3>
+                <span>karanmistry2804@gmail.com</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- End -->
+
+      <div class="end" style="background: #005088">
+        <br />
+        <center>
+          <h2 style="font-weight: 300; color: #fff">
+            Portfolio By KARAN MISTRY
+          </h2>
+        </center>
+        <br />
+      </div>
+    </div>
+
+    <script src="script.js " charset="utf-8 "></script>
+  </body>
+</html>
